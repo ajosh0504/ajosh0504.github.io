@@ -21,7 +21,12 @@
             <div class="content">
                 <p style="text-transform: uppercase;">{{ site.description }}</p>
                 <ul class="actions">
-                    <li><a href="#one" class="button next scrolly">Get Started</a></li>
+                    <ul class="icons">
+                        <li><a href="https://github.com/ajosh0504" class="icon alt fa-github" target="_blank"><span
+                                    class="label">GitHub</span></a></li>
+                        <li><a href="https://www.linkedin.com/in/apoorvajoshi95" class="icon alt fa-linkedin"
+                                target="_blank"><span class="label">LinkedIn</span></a></li>
+                    </ul>
                 </ul>
             </div>
         </div>
@@ -29,23 +34,8 @@
 
     <!-- Main -->
     <div id="main">
-
         <!-- One -->
         {% include tiles.html %}
-
-        <!-- Two -->
-        <section id="two">
-            <div class="inner">
-                <header class="major">
-                    <h2>Massa libero</h2>
-                </header>
-                <p>{{ content }}</p>
-                <ul class="actions">
-                    <li><a href="landing.html" class="button next">Get Started</a></li>
-                </ul>
-            </div>
-        </section>
-
     </div>
 
     {% include footer.html %}
