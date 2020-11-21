@@ -41,58 +41,74 @@ nav-menu: true
 				</header>
 				<p>Designed a pipeline to visually evaluate the efficacy of candidate production machine learning models and monitor their performance after deployment. The pipeline processes metadata from more than 200 million PE binaries prior to every model release to generate a set of dashboards to validate the new model for production by comparing it against previous model versions and other VirusTotal AV vendors. Post deployment, the model performance is monitored in almost realtime and alerts are generated if performance deteriorates.
 				<br />
-				<b>Programming Language: Python </b>
-				<br />
-				<b>Tools and Frameworks: AWS Batch, Elasticsearch, Kibana</b>
+				<b>Technology used: Python, AWS Batch, Elasticsearch, Kibana</b>
 				</p>
 			</div>
 		</div>
 	</section>
 	<section>
-		<a href="generic.html" class="image">
-			<img src="{% link assets/images/pic09.jpg %}" alt="" data-position="top center" />
+		<a href="portfolio.html" class="image">
+			<img src="{% link assets/images/anomaly.jpg %}" alt="" data-position="center center" />
 		</a>
 		<div class="content">
 			<div class="inner">
 				<header class="major">
-					<h3>Rhoncus magna</h3>
+					<h3>ProblemChild in the Elastic Stack</h3>
 				</header>
-				<p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna. Maecenas massa sed magna lacinia magna pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis tempus.</p>
-				<ul class="actions">
-					<li><a href="generic.html" class="button">Learn more</a></li>
-				</ul>
+				<p>Implemented an Elastic Stack based solution to identify anomalous and rare parent-child relationships in local user environments. A binary classification model was trained in the Elastic Stack to identify malicious Windows process events. Elastic Anomaly Detection was then used to prioritize malicious events containing anomalous and rare parent-child relationships for security analysts to investigate. 
+				<br />
+				<b>Technology used: Elasticsearch, Kibana</b>
+				</p>
 			</div>
 		</div>
 	</section>
 	<section>
-		<a href="generic.html" class="image">
-			<img src="{% link assets/images/pic10.jpg %}" alt="" data-position="25% 25%" />
+		<a href="portfolio.html" class="image">
+			<img src="{% link assets/images/url.jpg %}" alt="" data-position="center center" />
 		</a>
 		<div class="content">
 			<div class="inner">
 				<header class="major">
-					<h3>Sed nunc ligula</h3>
+					<h3>Malicious URL Detection</h3>
 				</header>
-				<p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna. Maecenas massa sed magna lacinia magna pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis tempus.</p>
-				<ul class="actions">
-					<li><a href="generic.html" class="button">Learn more</a></li>
-				</ul>
+				<p>Scoped and developed a fast, lightweight Random Forest model for malicious URL detection using a combination of static lexical features and ngrams derived from URL strings. The model resulted in a 22% increase in detections coming from FireEye's URL Detection Engine. 
+				<br />
+				<b>Technology used: Python, NLTK, Scikit-Learn (Random Forest), AWS (several services)</b>
+				</p>
 			</div>
 		</div>
 	</section>
-</section>
-
-<!-- Three -->
-<section id="three">
-	<div class="inner">
-		<header class="major">
-			<h2>Massa libero</h2>
-		</header>
-		<p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus pharetra. Pellentesque condimentum sem. In efficitur ligula tate urna. Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus amet pharetra et feugiat tempus.</p>
-		<ul class="actions">
-			<li><a href="generic.html" class="button next">Get Started</a></li>
-		</ul>
-	</div>
-</section>
+	<section>
+		<a href="portfolio.html" class="image">
+			<img src="{% link assets/images/phishing.jpg %}" alt="" data-position="center center" />
+		</a>
+		<div class="content">
+			<div class="inner">
+				<header class="major">
+					<h3>Clustering to identify phishing campaigns</h3>
+				</header>
+				<p>Built a clustering algorithm using Transfer Learning and Annoy to cluster screenshots of webpages, which was used to identify and detect large phishing campaigns in FireEye's URL Detection Engine. A pre-trained Deep CNN model was used to learn features from the webpage screenshots and Annoy was used for approximate clustering since the algorithm was expected to deal with ~9 million URLs per day.
+				<br />
+				<b>Technology used: Python, Keras (TensorFLow backend), Annoy, AWS (several services)</b>
+				</p>
+			</div>
+		</div>
+	</section>
+	<section>
+		<a href="portfolio.html" class="image">
+			<img src="{% link assets/images/nlp.jpg %}" alt="" data-position="center center" />
+		</a>
+		<div class="content">
+			<div class="inner">
+				<header class="major">
+					<h3>Predicting user churn in online health communities</h3>
+				</header>
+				<p>Used an NLP and ensemble learning approach to categorize ~3 million user posts contributed by ~50,000 users on an online health community into different types of social support. These annotated posts were then used to create state trajectories to capture the change in posting activity of users across several months. Finally, the trajectories were used as inputs to a Bayesian model to predict the probability of a user churning from the community.
+				<br />
+				<b>Technology used: Python, NLTK, Gensim, GCP</b>
+				</p>
+			</div>
+		</div>
+	</section>
 
 </div>
