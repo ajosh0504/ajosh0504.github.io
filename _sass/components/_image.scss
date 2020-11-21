@@ -42,8 +42,8 @@ img {
 
 		&.fit {
 			display: block;
-			margin: 0 0 _size(element-margin) 0;
-			width: 100%;
+			margin: auto auto;
+			width: 80%;
 
 			img {
 				width: 100%;
