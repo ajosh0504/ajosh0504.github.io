@@ -1,7 +1,7 @@
 ---
 layout: post
 title: About Me
-description: Lorem ipsum dolor est
+description: 
 image: assets/images/headshot.jpg
 nav-menu: true
 ---
