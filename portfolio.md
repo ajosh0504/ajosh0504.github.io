@@ -1,13 +1,12 @@
 ---
+layout: page
 title: Portfolio
-layout: landing
-description: 
 image: assets/images/arctic_wave.jpg
 nav-menu: true
 ---
 
 <!-- Main -->
-<div id="main">
+<div id="main" class="alt">
 
 <!-- One -->
 <section id="one">
@@ -15,13 +14,10 @@ nav-menu: true
 		<header class="major">
 			<h1>Conferences and Publications</h1>
 		</header>
-		<li>Train, evaluate, monitor, infer: End-to-end machine learning in Elastic</li>
-		<li><a href="https://www.elastic.co/blog/train-evaluate-monitor-infer-end-to-end-machine-learning-in-elastic">Learn more</a></li>
-		<p>Joshi, A., (2019, October). Using Lexical Features for Malicious URL Detection- A Machine Learning Approach. Paper to be presented at Conference on Applied Machine Learning for Information Security (CAMLIS), Washington, DC, USA.</p>
-		<li><a href="https://www.camlis.org/2019/talks/joshi">Learn more</a></li>
-		<p>Wang, X., Joshi, A., Zhao, K., Zhou, X., (2018, December). Social Support and User Churn Prediction for Online Health Communities -- A Trajectory-based Deep Learning Method. Paper presented at the 28th Workshop on Information Technology and Systems (WITS), California, USA.</p>
-		<p>Master's Thesis: Trajectory-based methods to predict user churn in online health edict user churn in online health communities </p>
-		<li><a href="https://ir.uiowa.edu/cgi/viewcontent.cgi?article=7709&context=etd">Learn more</a></li>
+		<li>Train, evaluate, monitor, infer: End-to-end machine learning in Elastic. <a href="https://www.elastic.co/blog/train-evaluate-monitor-infer-end-to-end-machine-learning-in-elastic">Learn more</a></li>
+		<li>Joshi, A., (2019, October). Using Lexical Features for Malicious URL Detection- A Machine Learning Approach. Paper to be presented at Conference on Applied Machine Learning for Information Security (CAMLIS), Washington, DC, USA. <a href="https://www.camlis.org/2019/talks/joshi">Learn more</a></li>
+		<li>Wang, X., Joshi, A., Zhao, K., Zhou, X., (2018, December). Social Support and User Churn Prediction for Online Health Communities -- A Trajectory-based Deep Learning Method. Paper presented at the 28th Workshop on Information Technology and Systems (WITS), California, USA.</li>
+		<li>Master's Thesis: Trajectory-based methods to predict user churn in online health edict user churn in online health communities. <a href="https://ir.uiowa.edu/cgi/viewcontent.cgi?article=7709&context=etd">Learn more</a></li>
 	</div>
 </section>
 
